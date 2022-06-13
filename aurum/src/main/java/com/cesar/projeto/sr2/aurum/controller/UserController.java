@@ -43,7 +43,7 @@ public class UserController {
             model.addAttribute("userLogin", authenticated.getLogin());
             return "main_page";
         }else{
-            return "error_page";
+            return "login_page";
         }
     }
 }
