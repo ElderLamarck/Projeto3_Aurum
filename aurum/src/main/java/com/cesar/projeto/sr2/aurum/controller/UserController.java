@@ -32,7 +32,7 @@ public class UserController {
     public String register(@ModelAttribute UserModel userModel){
         System.out.println("register request: " + userModel);
         UserModel registeredUser = userService.registerUser(userModel.getLogin(), userModel.getPassword(), userModel.getEmail());
-        return registeredUser == null ? "error_page" : "redirect/login"; //if-else em uma linha
+        return registeredUser == null ? "error_page" : "redirect:/login"; //if-else em uma linha
     }
 
     @PostMapping("/login")
