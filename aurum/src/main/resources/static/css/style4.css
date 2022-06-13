@@ -40,7 +40,7 @@ h2{
         color: #1A1A1A;
 }
 
-.input-box input{
+.input-box button{
 	box-sizing: border-box;
 	width: 260px;
 	height: 38px;
@@ -51,7 +51,7 @@ h2{
         color: #F5F5F5;
 }
 
-.input-box2 input{
+.input-box2 button{
 	box-sizing: border-box;
 	width: 260px;
 	height: 38px;
@@ -60,4 +60,16 @@ h2{
 	border-radius: 20px;
 	margin-bottom: 25px;
         color: #1A1A1A;
+}
+
+.input-box button a{
+	color: #F5F5F5;
+	letter-spacing: 0.01em;
+	text-decoration: none;
+}
+
+.input-box2 button a{
+	color: #000;
+	letter-spacing: 0.01em;
+	text-decoration: none;
 }
