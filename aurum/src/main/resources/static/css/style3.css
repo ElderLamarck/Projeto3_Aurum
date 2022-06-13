@@ -80,3 +80,14 @@ main{
 	margin-bottom: 25px;
         color: #F5F5F5;
 }
+
+.inscreva-se a{
+	font-size: 12px;
+        text-decoration: none;
+        color: #4B4B4B;
+}
+
+.inscreva-se a strong{
+        color: #000;
+}
+
